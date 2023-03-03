@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #09090b;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+
+header{
+    background-color: #013952;
+}
+
+
+#navbar {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+#navbar ul{
+    list-style: none;
+    display: inline-flex;
+    text-decoration: none;
+}
+nav li, a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+#navbar h1{
+    color: #000;
+}
+
+#section-index{
+    background-color: black;
+}
+
+#sobre-mim{
+   font-family: 'Amaranth';
+    font-size: 2em;
+    color: #fff;
+    width: 17em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#sobre-mim img{
+    margin-bottom: 2em;
+    width: 15em;
+}
+
+#sobre-mim p{
+    margin: 0;
+}
+
+#sobre-mim p span{
+    color: #276c64;
+}
+#sobre-mim p span:hover{
+    color: #61a391;
+}
+
+
+#sobre-mim-ola{
+    margin-left: 10px;
+    font-family: 'Michroma';
+}
+
+#imagem-sobre-mim{
+    display: flex;
+    justify-content: end;
+    
+}
+
+#section-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#section-about > h1{
+    color: #fff;
+    font-size: 5em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    justify-content: center;
+}
+
+#section-about img{
+    width: 70vw;
+    height: 70vh;
+    margin: 10vh 0;
+}
+
+#about{
+    color: #fff;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+    width: 35em;
+    
+}
+
+
+#about p{
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#projetos h1{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Michroma';
+    font-size: 45px;
+}
+
+#projetos-lista{
+    margin-top: 5em;
+    display: grid;
+    place-content: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+
+#projetos-lista article{
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding: 20px;
+    height: 200px;
+    margin: 10px;
+    width: 30em;
+    background-color: #272727;
+    box-shadow: 2px 2px 2px 1px  #e1dede ;
+}
+
+#projetos-lista h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+#projetos-lista p{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+#projetos-lista a{
+    font-size: 20px;
+    color: #6f8191;
+    text-decoration: underline;
+}
+
+#contato h1,p{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contato form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+#contato input{
+    width: 25em;
+    height: 3em;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+#contato textarea{
+    width: 25em;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#contato button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 10em;
+    border-radius: 50px;
+    background-color: #61a391;
+    margin-bottom: 20px;
+}
+
+.rodape{
+    border-top: 1px solid #595757;
+    background: #09090b;
+    text-align: center;
+
+}
+
+.rodape .compartilhar{
+    padding: 1rem 0;
+}
+
+.rodape .compartilhar a{
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    color: #fff;
+    border: .1rem solid #595757;
+    margin: .3rem;
+    border-radius: 50%;
+}
+
+
+.rodape .compartilhar a:hover{
+    background-color: #276c64;
+}
+
+.rodape .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap:1rem;
+}
+
+.rodape .links a{
+    padding: .4rem 1rem;
+    color:#fff;
+    border:.1rem solid #595757;
+    font-size: 2rem;
+    border-radius: 15px;
+}
+
+.rodape .links a:hover{
+    background-color: #276c64;
+}
+
+.rodape .creditos{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1.5rem;
+}
+
+.rodape .creditos span{
+    color: #276c64;
+}
+
+@media screen and (max-width: 1200px) {
+    #section-about h1{
+        margin: auto;
+        padding-top: 1em;
+        padding-left: 2em;
+    }
+}
+@media screen and (max-width: 785px) {
+    #section-about h1{
+        font-size: 3em;
+    }
+    #section-about img{
+        height: 20em;
+    }
+    
+}
+@media screen  and (max-width: 640px){
+    #sobre-mim p, h1{
+        font-size: 1em;
+    }
+    #sobre-mim{
+        margin-top: 5em;
+        width: 10em;
+    }
+    #sobre-mim p{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 17px;
+        margin: auto;
+        margin-left: 20px;
+    }
+    #sobre-mim img{
+        margin-top: 20px;
+        width: 10em;
+        margin-bottom: 3em;
+    }
+}
+
+@media screen and (max-width: 575px){
+    #about {
+        font-size: 13px;
+    }
+    #projetos-lista article{
+        width: 20em;
+    }
+    #projetos-lista p{
+        margin: 0;
+    }
+    #projeto1 p{
+        margin-bottom: 3em;
+    }
+    #projeto2 p{
+        margin-bottom: 4em;
+    }
+    #projeto3 p{
+        margin-bottom: 0.5em;
+    }
+    #projeto4 p{
+        margin-bottom: 2.5em;
+    }
+}
+@media screen and (max-width: 521px){
+    #projetos-lista article{
+        width: 15em;
+    }
+}
+@media screen and (max-width: 490px){
+    #about {
+        font-size: 9px;
+    
+    }
+    #navbar{
+        width: 100%;
+    }
+    #navbar h1{
+        padding-left: 1em;
+        font-size: 25px;
+    }
+    #navbar ul{
+
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 410px){
+    #section-about h1{
+        font-size: 2em;
+        
+    }
+    #navbar{
+        padding-left: 5px;
+        width: 100%;
+    }
+    #projetos-lista p{
+        margin: 0;
+    }
+    #projeto1 p{
+        margin-bottom: 40px;
+    }
+    #projeto2 p{
+        margin-bottom: 3.3em;
+    }
+    #projeto4 p{
+        margin-bottom: 1em;
+    }
+    
+}
+@media  screen and (max-width: 380px) {
+    #navbar h1{
+        margin-left: 4px;
+        font-size: 20px;
+    }
+}
