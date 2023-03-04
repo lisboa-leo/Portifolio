@@ -9,13 +9,13 @@
 }
 
 body{
-    background-color: #09090b;
+    background-color: #1a4a5a;
     color: #fff;
     font-family: 'Rubik', sans-serif;
 }
 
 header{
-    background-color: #013952;
+    background-color: #0e2c40;
 }
 
 
@@ -31,14 +31,15 @@ header{
     list-style: none;
     display: inline-flex;
     text-decoration: none;
+    padding-left: 15px;
 }
 nav li, a{
     margin-right: 20px;
     text-decoration: none;
-    color: black;
+    color: #188d8d;
 }
 #navbar h1{
-    color: #000;
+    color: #188d8d;
 }
 
 #section-index{
@@ -71,10 +72,11 @@ nav li, a{
 }
 
 #sobre-mim p span{
-    color: #276c64;
+    padding-left: 5px;
+    color: #c1e1a7;
 }
 #sobre-mim p span:hover{
-    color: #61a391;
+    color: #efbc75;
 }
 
 
@@ -152,7 +154,7 @@ nav li, a{
     height: 200px;
     margin: 10px;
     width: 30em;
-    background-color: #272727;
+    background-color: #0e2c40;
     box-shadow: 2px 2px 2px 1px  #e1dede ;
 }
 
@@ -169,7 +171,7 @@ nav li, a{
 
 #projetos-lista a{
     font-size: 20px;
-    color: #6f8191;
+    color: #c1e1a7;
     text-decoration: underline;
 }
 
@@ -212,7 +214,7 @@ nav li, a{
 
 .rodape{
     border-top: 1px solid #595757;
-    background: #09090b;
+    background: #0e2c40;
     text-align: center;
 
 }
@@ -222,10 +224,10 @@ nav li, a{
 }
 
 .rodape .compartilhar a{
-    height: 4rem;
-    width: 4rem;
-    line-height: 4rem;
-    font-size: 2rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
     color: #fff;
     border: .1rem solid #595757;
     margin: .3rem;
@@ -234,14 +236,14 @@ nav li, a{
 
 
 .rodape .compartilhar a:hover{
-    background-color: #276c64;
+    background-color: #c1e1a7;
 }
 
 .rodape .links{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 2rem 0;
+
     gap:1rem;
 }
 
@@ -249,23 +251,23 @@ nav li, a{
     padding: .4rem 1rem;
     color:#fff;
     border:.1rem solid #595757;
-    font-size: 2rem;
+    font-size: 1rem;
     border-radius: 15px;
 }
 
 .rodape .links a:hover{
-    background-color: #276c64;
+    background-color: #efbc75;
 }
 
 .rodape .creditos{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #fff;
     font-weight: lighter;
     padding: 1.5rem;
 }
 
 .rodape .creditos span{
-    color: #276c64;
+    color: #efbc75;
 }
 
 @media screen and (max-width: 1200px) {
