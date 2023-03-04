@@ -213,7 +213,7 @@ nav li, a{
 }
 
 .rodape{
-    border-top: 1px solid #595757;
+    border-top: 1px solid #188d8d;
     background: #0e2c40;
     text-align: center;
 
@@ -229,7 +229,7 @@ nav li, a{
     line-height: 2.5rem;
     font-size: 1.5rem;
     color: #fff;
-    border: .1rem solid #595757;
+    border: .1rem solid #188d8d;
     margin: .3rem;
     border-radius: 50%;
 }
@@ -250,7 +250,7 @@ nav li, a{
 .rodape .links a{
     padding: .4rem 1rem;
     color:#fff;
-    border:.1rem solid #595757;
+    border:.1rem solid #188d8d;
     font-size: 1rem;
     border-radius: 15px;
 }
@@ -282,10 +282,11 @@ nav li, a{
 }
 @media screen and (max-width: 785px) {
     #section-about h1{
-        font-size: 3em;
+        font-size: 2em;
     }
     #section-about img{
-        height: 20em;
+        width: 14em;
+        height: 15em;
     }
     
 }
@@ -358,7 +359,8 @@ nav li, a{
 }
 @media screen and (max-width: 410px){
     #section-about h1{
-        font-size: 2em;
+        padding-right: 1.5em;
+        font-size: 1.5em;
         
     }
     #navbar{
