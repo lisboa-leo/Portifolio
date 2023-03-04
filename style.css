@@ -269,6 +269,9 @@ nav li, a{
 .rodape .creditos span{
     color: #efbc75;
 }
+.rodape .creditos span:hover{
+    color: #c1e1a7;
+}
 
 @media screen and (max-width: 1200px) {
     #section-about h1{
