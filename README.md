@@ -1,7 +1,7 @@
 # Meu Portfólio
 Este é o meu projeto de portfólio, onde mostro alguns dos meus trabalhos e projetos de programação.
 
-Tecnologias utilizadas
+Tecnologias utilizadas <br/>
 -HTML
 -CSS
 -Bootstrap
