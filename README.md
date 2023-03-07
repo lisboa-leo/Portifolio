@@ -12,7 +12,7 @@ Tecnologias utilizadas <br/>
 - Página de contato  para envio de mensagens
 
 Como utilizar o projeto: <br/>
-Clone este repositório
+Clone este repositório: <br/>
  git clone https://github.com/lisboa-leo/Portifolio <br/>
 Acesse ele
  https://leonardolisboaportifolio.bohr.io
