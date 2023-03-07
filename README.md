@@ -13,6 +13,6 @@ Tecnologias utilizadas <br/>
 
 Como utilizar o projeto: <br/>
 Clone este repositório
- git clone https://github.com/lisboa-leo/Portifolio
+ git clone https://github.com/lisboa-leo/Portifolio <br/>
 Acesse ele
  https://leonardolisboaportifolio.bohr.io
