@@ -212,6 +212,69 @@ nav li, a{
     margin-bottom: 20px;
 }
 
+.rodape-inicio{
+    border-top: 1px solid #188d8d;
+    background: #0e2c40;
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    width:100%;
+
+}
+
+.rodape-inicio .compartilhar{
+    padding: 1rem 0;
+}
+
+.rodape-inicio .compartilhar a{
+    height: 2.5rem;
+    width: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    color: #fff;
+    border: .1rem solid #188d8d;
+    margin: .3rem;
+    border-radius: 50%;
+}
+
+
+.rodape-inicio .compartilhar a:hover{
+    background-color: #c1e1a7;
+}
+
+.rodape-inicio .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap:1rem;
+}
+
+.rodape-inicio .links a{
+    padding: .4rem 1rem;
+    color:#fff;
+    border:.1rem solid #188d8d;
+    font-size: 1rem;
+    border-radius: 15px;
+}
+
+.rodape-inicio .links a:hover{
+    background-color: #efbc75;
+}
+
+.rodape-inicio .creditos{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1.5rem;
+}
+
+.rodape-inicio .creditos span{
+    color: #efbc75;
+}
+.rodape-inicio .creditos span:hover{
+    color: #c1e1a7;
+}
 .rodape{
     border-top: 1px solid #188d8d;
     background: #0e2c40;
@@ -246,7 +309,6 @@ nav li, a{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
     gap:1rem;
 }
 
