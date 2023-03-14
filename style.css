@@ -27,12 +27,18 @@ header{
     height: 50px;
 }
 
-#navbar ul{
-    list-style: none;
-    display: inline-flex;
-    text-decoration: none;
-    padding-left: 15px;
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+nav ul li{
+    display: inline-flex;
+    list-style: none;
+}
+
 nav li, a{
     margin-right: 20px;
     text-decoration: none;
@@ -334,6 +340,15 @@ nav li, a{
     color: #c1e1a7;
 }
 
+nav .fa-solid{
+    display: none;
+}
+
+nav .fa-bars{
+    position: fixed;
+    right: 20px;
+}
+
 @media screen and (max-width: 1200px) {
     #section-about h1{
         margin: auto;
@@ -371,6 +386,44 @@ nav li, a{
         width: 10em;
         margin-bottom: 3em;
     }
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    #navbar-listas{
+        background: #188d8d;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    #navbar-listas li{
+        color: #0e2c40;
+        font-size: 18px;
+        display: block;
+        margin: 25px;
+    }
+    nav li, a{
+        color: #fff;
+    }
+    nav > .fa-solid{
+        color: #188d8d;
+    }
+
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    #navbar h1{
+        font-size: 30px;
+    }
+
 }
 
 @media screen and (max-width: 575px){
@@ -401,29 +454,8 @@ nav li, a{
         width: 15em;
     }
 }
-@media screen and (max-width: 490px){
-    #about {
-        font-size: 9px;
-    
-    }
-    #navbar{
-        width: 100%;
-    }
-    #navbar h1{
-        padding-left: 1em;
-        font-size: 25px;
-    }
-    #navbar ul{
 
-        font-size: 15px;
-    }
-}
 @media screen and (max-width: 410px){
-    #section-about h1{
-        padding-right: 1.5em;
-        font-size: 1.5em;
-        
-    }
     #navbar{
         padding-left: 5px;
         width: 100%;
@@ -442,9 +474,4 @@ nav li, a{
     }
     
 }
-@media  screen and (max-width: 380px) {
-    #navbar h1{
-        margin-left: 4px;
-        font-size: 20px;
-    }
-}
+
