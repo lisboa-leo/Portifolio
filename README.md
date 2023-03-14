@@ -1,4 +1,4 @@
-# Meu Portfólio
+## Meu Portfólio
 Este é o meu projeto de portfólio, onde mostro alguns dos meus trabalhos e projetos de programação.
 
 Tecnologias utilizadas <br/>
@@ -10,6 +10,12 @@ Tecnologias utilizadas <br/>
 - Página inicial com informações sobre mim
 - Página de portfólio com links para meus projetos
 - Página de contato  para envio de mensagens
+
+### ✔️ Técnicas e tecnologias utilizadas
+
+- ``HTML``
+- ``CSS``
+- ``JavaScript``
 
 Como utilizar o projeto: <br/>
 Clone este repositório: <br/>
