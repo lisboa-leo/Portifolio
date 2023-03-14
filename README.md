@@ -5,7 +5,7 @@ Tecnologias utilizadas <br/>
 - HTML
 - CSS
 
- ### 💻Funcionalidades <br/>
+### 💻Funcionalidades <br/>
  
 - Página inicial com informações sobre mim
 - Página de portfólio com links para meus projetos
