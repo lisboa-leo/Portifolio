@@ -312,6 +312,7 @@ nav li, a{
     justify-content: center;
     flex-wrap: wrap;
     gap:1rem;
+    margin-left: 1.2em;
 }
 
 .rodape .links a{
@@ -345,7 +346,7 @@ nav .fa-solid{
 }
 
 nav .fa-bars{
-    position: fixed;
+    position: absolute;
     right: 20px;
 }
 
@@ -361,7 +362,14 @@ nav .fa-bars{
         font-size: 2em;
     }
     #section-about img{
-        width: 14em;
+        width: 17em;
+        height: 15em;
+    }
+    
+}
+@media screen and (max-width: 785px ) and (min-width: 659px) {
+    #section-about img{
+        width: 23em;
         height: 15em;
     }
     
@@ -423,6 +431,9 @@ nav .fa-bars{
     #navbar h1{
         font-size: 30px;
     }
+    #about{
+        width: 30em;
+    }
 
 }
 
@@ -453,6 +464,9 @@ nav .fa-bars{
     #projetos-lista article{
         width: 15em;
     }
+    #about{
+        width: 23em;
+    }
 }
 
 @media screen and (max-width: 410px){
@@ -473,5 +487,13 @@ nav .fa-bars{
         margin-bottom: 1em;
     }
     
+}
+@media screen and (max-width: 330px){
+    #projetos-lista article{
+        width: 15em;
+    }
+    #about{
+        width: 18em;
+    }
 }
 
