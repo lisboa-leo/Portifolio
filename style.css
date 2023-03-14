@@ -223,7 +223,6 @@ nav li, a{
     background: #0e2c40;
     text-align: center;
     position:fixed;
-    bottom:0;
     width:100%;
 
 }
@@ -252,7 +251,6 @@ nav li, a{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
     gap:1rem;
 }
 
@@ -348,6 +346,11 @@ nav .fa-solid{
 nav .fa-bars{
     position: absolute;
     right: 20px;
+}
+@media screen and (max-width: 2000px ) and (min-width: 350px){
+    .rodape-inicio{
+        bottom: 0;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -489,6 +492,7 @@ nav .fa-bars{
     
 }
 @media screen and (max-width: 330px){
+    
     #projetos-lista article{
         width: 15em;
     }
